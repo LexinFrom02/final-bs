@@ -1,0 +1,113 @@
+@font-face {
+    font-family: 'fa';
+    src: url(../fonts/fa-brands-400.ttf);
+}
+
+@font-face {
+    font-family: 'fa';
+    src: url(../fonts/fa-regular-400.ttf);
+}
+
+@font-face {
+    font-family: 'fa';
+    src: url(../fonts/fa-solid-900.ttf);
+}
+
+@font-face {
+    font-family: 'awesome';
+    src: url(../fonts/FontAwesome.otf);
+}
+
+@font-face {
+    font-family: 'awesome';
+    src: url(../fonts/fontawesome-webfont.ttf);
+}
+
+@font-face {
+    font-family: 'philosopher';
+    src: url(../fonts/Philosopher-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'philosopher';
+    src: url(../fonts/Philosopher-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'roboto';
+    src: url(../fonts/Roboto-Italic.ttf);
+}
+
+@font-face {
+    font-family: 'roboto';
+    src: url(../fonts/Roboto-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'roboto';
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+#header {
+    height: 100px;
+    background-color: #008daa;
+    box-shadow: inset;
+    box-shadow: 2px 4px 5px 0px rgba(0, 0, 0, 0.4);
+}
+
+#title {
+    height: 1080px;
+    background-color: #eeeeed;
+}
+
+#about-course {
+    background-color: #ffffff;
+    height: 1080px;
+}
+
+#advantages {
+    height: 1080px;
+    background-color: #eeeeed;
+}
+
+#questions {
+    background-color: #ffffff;
+    height: 1080px;
+}
+
+#reviews {
+    height: 1080px;
+    background-color: #eeeeed;
+}
+
+#contact-us {
+    background-color: #ffffff;
+    height: 1080px;
+}
+
+#footer {
+    height: 177px;
+    background-color: #005c7b;
+}
+
+a {
+    text-decoration: none;
+    font-family: Roboto;
+    color: #d4d0c8;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #d4d0c8;
+  }
+
+  .header-social {
+      width: 30px;
+      height: 30px;
+      margin-left: 40px;
+  }
+
+  .navbar {
+      margin-top: 100px;
+  }
+ 
