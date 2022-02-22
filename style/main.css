@@ -48,66 +48,65 @@
     src: url(../fonts/Roboto-Regular.ttf);
 }
 
-#header {
+.header {
     height: 100px;
     background-color: #008daa;
-    box-shadow: inset;
-    box-shadow: 2px 4px 5px 0px rgba(0, 0, 0, 0.4);
+    box-shadow: 2px 4px 5px 0px rgba(0,0,0,0.4);
 }
 
-#title {
+.banner {
+    height: 976px;
+    background-color: #eeeeed;
+    margin-top: 4px;
+}
+
+.about {
+    height: 1080px;
+    background-color: #ffffff;
+}
+
+.advantages {
     height: 1080px;
     background-color: #eeeeed;
 }
 
-#about-course {
-    background-color: #ffffff;
+.questions {
     height: 1080px;
+    background-color: #ffffff;
 }
 
-#advantages {
+.reviews {
     height: 1080px;
     background-color: #eeeeed;
 }
 
-#questions {
+.contact-us {
+    height: 903px;
     background-color: #ffffff;
-    height: 1080px;
 }
 
-#reviews {
-    height: 1080px;
-    background-color: #eeeeed;
-}
-
-#contact-us {
-    background-color: #ffffff;
-    height: 1080px;
-}
-
-#footer {
+.footer {
     height: 177px;
     background-color: #005c7b;
 }
 
-a {
-    text-decoration: none;
+#site-link {
     font-family: Roboto;
-    color: #d4d0c8;
-}
-
-a:hover {
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 400;
     text-decoration: underline;
     color: #d4d0c8;
-  }
+    padding-left: 69px;
+}
 
-  .header-social {
-      width: 30px;
-      height: 30px;
-      margin-left: 40px;
-  }
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
-  .navbar {
-      margin-top: 100px;
-  }
- 
+.header-social {
+    width: 30px;
+    height: 30px;
+}
