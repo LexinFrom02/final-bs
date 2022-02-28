@@ -103,10 +103,60 @@
 .header-content {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    padding-top: 38px
 }
 
 .header-social {
-    width: 30px;
-    height: 30px;
+    width: 35px;
+    height: 35px;
+    margin-right: 43px;
 }
+
+.social {
+    padding-right: 7px;
+}
+
+.banner-image {
+    display: flex;
+    width: 890px;
+    height: 720px;
+    margin: 205px -6px 0 -34px;
+}
+
+#top-banner-text {
+    text-align: end;
+    font-family: Philosopher;
+    font-size: 55px;
+    line-height: 72px;
+    font-weight: 400;
+    color: #005c7b;
+}
+
+#bottom-banner-text {
+    text-align: end;
+    font-family: Roboto;
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #005c7b;
+}
+
+ul#top-nav-list li {
+    margin-left: 17px;
+}
+
+#top-nav-list {
+    font-family: Roboto;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #06bac5;
+    list-style-type: none;
+    display: flex;
+	flex-direction: row;
+    justify-content: end;
+    margin: 19px 53px 0 0px;
+}
+
+
+
