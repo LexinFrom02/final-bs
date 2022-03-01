@@ -51,7 +51,7 @@
 .header {
     height: 100px;
     background-color: #008daa;
-    box-shadow: 2px 4px 5px 0px rgba(0,0,0,0.4);
+    box-shadow: 2px 4px 5px 0px rgba(0, 0, 0, 0.4);
 }
 
 .banner {
@@ -120,16 +120,26 @@
     display: flex;
     width: 890px;
     height: 720px;
-    margin: 205px -6px 0 -34px;
+    margin: -369px -6px 0 -34px;
 }
 
-#top-banner-text {
+#top-banner-text,
+#middle-banner-text {
     text-align: end;
     font-family: Philosopher;
     font-size: 55px;
     line-height: 72px;
     font-weight: 400;
     color: #005c7b;
+    margin-right: 54px;
+}
+
+#top-banner-text {
+    margin-top: 103px;
+}
+
+#middle-banner-text {
+    margin-top: 40px;
 }
 
 #bottom-banner-text {
@@ -139,6 +149,7 @@
     line-height: 24px;
     font-weight: 500;
     color: #005c7b;
+    margin: 103px 55px 0 0;
 }
 
 ul#top-nav-list li {
@@ -153,10 +164,54 @@ ul#top-nav-list li {
     color: #06bac5;
     list-style-type: none;
     display: flex;
-	flex-direction: row;
+    flex-direction: row;
     justify-content: end;
-    margin: 19px 53px 0 0px;
+    padding: 15px 53px 0 0px;
 }
 
+.btn {
+    width: 315px;
+    height: 60px;
+    background-color: #005c7b;
+    border-radius: 50px;
+    font-family: Roboto;
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #eeeeed;
+}
 
+.sign-button {
+    display: flex;
+    justify-content: end;
+    margin: 59px 54px 0 0;
+}
 
+#sign-button {
+    text-decoration: none;
+    color: #eeeeed;
+}
+
+.about-content {
+    font-family: Roboto;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #005c7b;
+    text-align: center;
+}
+
+#about-h1 {
+    font-family: Philosopher;
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 700;
+    color: #005c7b;
+    margin: 127px 0 0 16px;
+}
+
+#about-content-top {
+    margin: 102px 51px 0 61px;
+}
+
+#about-content-middle {}
