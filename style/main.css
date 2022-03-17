@@ -61,7 +61,7 @@
 }
 
 .about {
-    height: 1080px;
+    height: 955px;
     background-color: #ffffff;
 }
 
@@ -214,4 +214,36 @@ ul#top-nav-list li {
     margin: 102px 51px 0 61px;
 }
 
-#about-content-middle {}
+
+/* #about-content-middle {} */
+
+#about-image-wrap {
+    justify-content: space-between;
+    margin: 98px 136px 0 169px;
+    padding-bottom: 35px;
+}
+
+.about-image {
+    width: 135px;
+    height: 104px;
+}
+
+#about-image-content-wrap {
+    margin-left: 20px;
+}
+
+#about-image-text {
+    font-family: Philosopher;
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #005c7b;
+}
+
+#about-image-text p {
+    font-family: Roboto;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #008daa;
+}
