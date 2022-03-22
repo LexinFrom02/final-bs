@@ -68,6 +68,7 @@
 .advantages {
     height: 1080px;
     background-color: #eeeeed;
+    padding-top: 126px;
 }
 
 .questions {
@@ -247,3 +248,106 @@ ul#top-nav-list li {
     font-weight: 400;
     color: #008daa;
 }
+
+.advantages {
+    text-align: center;
+    font-family: Philosopher;
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 700;
+    color: #005c7b;
+}
+
+.advantages-list {
+    list-style-type: none;
+    font-family: 'Roboto';
+    font-size: 30px;
+    line-height: 48px;
+    font-weight: 400;
+    color: #005c7b;
+    text-align: left;
+    margin-left: 320px;
+}
+
+#footer-content-1 {
+    font-family: Roboto;
+    font-size: 24px;
+    /* line-height: 30px; */
+    font-weight: 400;
+    color: #eeeeed;
+}
+
+#footer-content-2 {
+    font-family: Roboto;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #eeeeed;
+    font-size: 18px;
+    }
+
+#footer-content-3 {
+    color: #eeeeed;
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+.fa-circle-check {
+    margin: 57px 20px 0 0;
+}
+
+.questions {
+    text-align: center;
+    font-family: Philosopher;
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 700;
+    color: #005c7b;
+    padding: 128px 0 0 26px;
+}
+
+#question-content-0 {
+    font-family: Philosopher;
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #008daa;
+    padding-top: 50px;
+}
+
+#question-content-1 {
+    font-family: Roboto;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    font-style: italic;
+    color: #005c7d;
+}
+
+.fa-caret-up, .fa-caret-down {
+    margin-right: 25px;
+}
+
+.questions-container {
+    width: 100%;
+}
+
+#dont-find-text {
+    font-family: Philosopher;
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: 700;
+    color: #008daa;
+    padding-bottom: 7px;
+    padding-top: 41px;
+}
+
+#ask-here {
+    font-family: Philosopher;
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: 700;
+    color: #005c7b; 
+    text-decoration: underline;
+}
+
