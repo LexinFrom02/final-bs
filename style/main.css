@@ -275,6 +275,8 @@ ul#top-nav-list li {
     /* line-height: 30px; */
     font-weight: 400;
     color: #eeeeed;
+    margin: -7px 0 0 78px;
+    padding-top: 13px;
 }
 
 #footer-content-2 {
@@ -283,13 +285,14 @@ ul#top-nav-list li {
     line-height: 30px;
     font-weight: 400;
     color: #eeeeed;
-    font-size: 18px;
-    }
+    margin: 6px 0 0 82px;
+}
 
 #footer-content-3 {
     color: #eeeeed;
-    font-size: 18px;
+    font-size: 19px;
     text-decoration: underline;
+    margin: 9px 0 0 77px;
 }
 
 .fa-circle-check {
@@ -358,7 +361,7 @@ ul#top-nav-list li {
     font-weight: 700;
     color: #005c7b;
     text-align: center;
-    padding: 110px 0 40px 0;
+    padding: 125px 0px 90px 81px;
 }
 
 .review-content, .contact-content {
@@ -370,7 +373,7 @@ ul#top-nav-list li {
     font-weight: 400;
     font-style: italic;
     color: #005c7b;
-    padding-bottom: 30px;
+    padding-bottom: 13px;
 }
 
 .review-content div {
@@ -380,11 +383,18 @@ ul#top-nav-list li {
 .review-content img {
     width: 45px;
     height: 45px;
-    margin-top: 120px;
+}
+
+.arrow-left {
+    margin: 65px 0px 0px 170px;
+}
+
+.arrow-right {
+    margin: 65px 129px 0px 0px;
 }
 
 .review-content div {
-    width: 70%;
+    width: 60%;
 }
 
 #review-name {
@@ -394,11 +404,13 @@ ul#top-nav-list li {
     font-weight: 400;
     color: #008daa;
     text-align: center;
+    margin: 0 0 0 95px;
 }
 
 .rounded-circle {
     width: 110px;
     height: 110px;
+    margin: 0 0 8px 93px;
 }
 
 #rounded-circle-wrap {
@@ -430,8 +442,8 @@ ul#top-nav-list li {
 }
 
 #contact-content img {
-    width: 60px;
-    height: 60px;
+    width: 70px;
+    height: 70px;
     margin: 0 50px 0 50px;
 }
 
@@ -439,10 +451,21 @@ ul#top-nav-list li {
     font-family: Roboto;
     font-size: 30px;
     line-height: 36px;
-    font-weight: 500;
+    font-weight: 700;
     color: #005c7d;
     text-align: center;
-    padding-bottom: 30px;
+    padding-bottom: 43px;
 }
 
+#contact-h {
+    padding: 125px 0px 104px 32px;
+}
 
+.contact-content {
+    margin: 18px 45px 83px 84px;
+}
+
+#main-site a {
+    text-decoration: underline;
+    color: #008daa;
+}
